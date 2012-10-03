@@ -13,6 +13,4 @@ FEED_EXPORTERS = {
     'sqlite': '<script directory>.exporters.SqliteItemExporter',
 }
 
-3. In terminal,
-
-$ scrapy crawl <spider name> -o sqlite.db -t sqlite
+3. In terminal,$ scrapy crawl <spider name> -o sqlite.db -t sqlite
